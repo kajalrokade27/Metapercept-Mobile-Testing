@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-20T16:17:34 IST" name="Default suite" finished-at="2025-11-20T16:17:53 IST" duration-ms="19849">
+  <suite started-at="2025-11-21T17:10:01 IST" name="Default suite" finished-at="2025-11-21T17:10:18 IST" duration-ms="16983">
     <groups>
     </groups>
-    <test started-at="2025-11-20T16:17:34 IST" name="Default test" finished-at="2025-11-20T16:17:53 IST" duration-ms="19849">
-      <class name="appiumTests.Basic1">
-        <test-method signature="sampleTest()[pri:0, instance:appiumTests.Basic1@1725dc0f]" started-at="2025-11-20T16:17:34 IST" name="sampleTest" finished-at="2025-11-20T16:17:53 IST" duration-ms="19711" status="PASS">
+    <test started-at="2025-11-21T17:10:01 IST" name="Default test" finished-at="2025-11-21T17:10:18 IST" duration-ms="16983">
+      <class name="appiumTests.ScrollToElement">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:appiumTests.ScrollToElement@dbf57b3]" started-at="2025-11-21T17:10:01 IST" name="preCondition" finished-at="2025-11-21T17:10:09 IST" duration-ms="8435" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTest -->
-      </class> <!-- appiumTests.Basic1 -->
+        </test-method> <!-- preCondition -->
+        <test-method signature="scrollToElementTest()[pri:0, instance:appiumTests.ScrollToElement@dbf57b3]" started-at="2025-11-21T17:10:09 IST" name="scrollToElementTest" finished-at="2025-11-21T17:10:17 IST" duration-ms="7693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToElementTest -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:appiumTests.ScrollToElement@dbf57b3]" started-at="2025-11-21T17:10:17 IST" name="postCondition" finished-at="2025-11-21T17:10:18 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- appiumTests.ScrollToElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

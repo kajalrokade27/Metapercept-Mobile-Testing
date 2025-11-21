@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appiumTests.Basic1">
+      <class name="appiumTests.WifiSetupTest">
         <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
           <include name="sampleTest"/>
         </methods>
-      </class> <!-- appiumTests.Basic1 -->
+      </class> <!-- appiumTests.WifiSetupTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
